@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.whl
+*.zip
+*.tar
+*.xlsx
+_claude_out.txt
+_claude_err.txt
+_lcout.txt
+_lcerr.txt
+*.egg-info/
+.env
+credentials.json
+motor_auth.json
+installer/assets/claude_code/node_modules.tar

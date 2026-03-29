@@ -1,0 +1,45 @@
+{
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:/Chance1/Asistente IA/.claude/hooks/session_start_kb.py\""
+          },
+          {
+            "type": "command",
+            "command": "python \"C:/Chance1/Asistente IA/.claude/hooks/on_user_message.py\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:/Chance1/Asistente IA/.claude/hooks/post_action_learn.py\""
+          },
+          {
+            "type": "command",
+            "command": "python \"C:/Chance1/Asistente IA/.claude/hooks/iteration_learn.py\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:/Chance1/Asistente IA/.claude/hooks/auto_learn_hook.py\""
+          }
+        ]
+      }
+    ]
+  }
+}
