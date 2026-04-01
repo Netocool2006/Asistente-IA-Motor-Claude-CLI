@@ -1,0 +1,4 @@
+=== test_st.py - 2026-03-19 20:01:04.936699 ===
+CRM vs SAP:  0.117  (esperado > 0.4)
+PIL vs cv2:  0.261  (esperado > 0.5)
+CRM vs PIL:  0.115  (esperado < 0.2)

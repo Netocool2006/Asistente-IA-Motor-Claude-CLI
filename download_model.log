@@ -1,0 +1,16 @@
+=== download_model.py - 2026-03-19 20:26:25.060423 ===
+
+Destino: C:\Chance1\models\multilingual
+
+  Ya existe: config.json
+  Ya existe: config_sentence_transformers.json
+  Ya existe: modules.json
+  Ya existe: sentence_bert_config.json
+  Ya existe: sentencepiece.bpe.model
+  Ya existe: special_tokens_map.json
+  Ya existe: tokenizer.json
+  Ya existe: tokenizer_config.json
+  Ya existe: model.safetensors
+  Ya existe: 1_Pooling/config.json
+
+Descarga completa. Probando carga del modelo...
